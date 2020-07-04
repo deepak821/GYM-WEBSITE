@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+      include ../static/style.css
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index" id="upp"> HOME</a></li>
+            <li><a href="" id="upp"> ABOUT US</a></li>
+            <li><a href="" id="upp"> SERVICES</a></li>
+            <li><a href="" id="upp"> CONTACT US</a></li>
+        </ul>
+    </nav>
+    <section class="bg">
+    <div class="cont1">
+             <h2 style="color: white;">FILL UP THE FORM</h2>  
+    <form action="" method="POST">
+            <input type="text" name="name" placeholder="NAME">
+            <input type="number" name="age" placeholder="AGE">
+            <textarea name="address" id="" cols="30" rows="10" placeholder="ADDRESS"></textarea>
+            <select name="type" id="" aria-placeholder="AC">
+                <option value="ac">AC</option>
+                <option value="norm">NORMAL</option>
+            </select>
+            <button id="btn">SUBMIT</button>
+            <div>
+                <h3 style="text-align: center;">
+                    | #{content}
+                </h3>
+            </div>
+    </form>
+    </div>
+</section>
+</body>
+</html>

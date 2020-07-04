@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+}
+
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+ul{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+li{
+    margin: 19px;
+   list-style: none;
+}
+#upp{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#upp:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+.cont{
+    color: white;
+    width: 550px;
+    height: 480px;
+    margin: 25px auto;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head::before{
+    content: "";
+    position: absolute;
+    height: 83%;
+    width: 100%;
+    top: 55px;
+    background: url('/static/trn.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+#a{
+  align-items: center;  
+}
+
+.bt{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 27px;
+    margin-top: 137px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+h1{
+    display: block;
+    margin: 25px auto;
+    width: 376px;
+}
+h2{
+    display: block;
+    margin: 25px auto;
+    width: 246px;
+}
+p{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.home{
+    display: flex;
+}
+.block{
+    text-align: center;
+    width: 377px;
+    margin: 47px 30px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 27px;
+    /*margin-right: 258px;*/
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 561px;
+    margin: 54px 170px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.block1{
+    text-align: center;
+    width: 377px;
+    margin: 47px 30px;
+    border: 2px solid black;
+    height: 399px;
+}
+.btn1{
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 27px;
+    margin-top: 137px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.call{
+    margin-top: 16px;
+}
+.right{
+    display: block;
+    /*border:2px solid yellow;*/
+    right: 34px;
+    bottom: -1078px;
+    position: absolute;
+    }
+    .right a img{
+        width: 20px;
+        margin: 5px;
+    }
+/*from here contact.pug styling begins*/
+.cont1{
+    color: black;
+    width: 550px;
+    height: 480px;
+    margin: 25px auto;
+    padding: 10px;
+}
+.bg::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 55px;
+    background: url('/static/body.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+input,textarea,select{
+   display: block;
+   background-color: transparent;
+   border: 3px solid black;
+   color: black;
+   font-weight: bold;
+   padding: 5px;
+   margin: 15px auto;
+   width: 60%;
+   border-radius: 6px;
+}
+#btn{
+    display: block;
+    margin: 10px auto;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#btn:hover{
+    color: black;
+    background-color: white;
+}
