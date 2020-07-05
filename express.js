@@ -37,7 +37,7 @@ app.set("views", path.join(__dirname,"views"))
 /*app.get("/demo", (req,res)=>{
     res.render('Demo',{ title: 'hii deepak', message:'this is pug template endpoint'});
 })*/
-app.get("/index", (req,res)=>{
+app.get("/", (req,res)=>{
     const con='Welcome to GYM Fantasy';
     const param={"title":'GYM Fantasy',"content":con};
   //res.render('index.pug',{ title: 'GYM Fantasy', "content":'Welcome to GYM Fantasy please fill up the form'})
@@ -72,7 +72,7 @@ app.post("/contact",(req,res)=>{
     res.render('contact.pug',param)
 })*/
 
-//from here website backend work sarts
+/*from here website backend work sarts
 app.get("/", (req,res)=>{
     res.send("This is home page");
 })
@@ -87,7 +87,7 @@ app.get("/contact", (req,res)=>{
 
 app.post("/about", (req,res)=>{
     res.send("This is post request about page");
-})
+})*/
 
 app.listen(port,()=>{
     console.log(`The application started successfully on port ${port}`);
