@@ -34,14 +34,14 @@ app.set('view engine', 'pug')
 //view directory
 app.set("views", path.join(__dirname,"views"))
 
-app.get("/demo", (req,res)=>{
+/*app.get("/demo", (req,res)=>{
     res.render('Demo',{ title: 'hii deepak', message:'this is pug template endpoint'});
-})
+})*/
 app.get("/index", (req,res)=>{
     const con='Welcome to GYM Fantasy';
     const param={"title":'GYM Fantasy',"content":con};
   //res.render('index.pug',{ title: 'GYM Fantasy', "content":'Welcome to GYM Fantasy please fill up the form'})
-    res.render('index.pug',param)
+    res.sendFile(path.join(__dirname,"views", "index.html"))
 })
 app.get("/contact", (req,res)=>{
     //const con='FILL UP THE FORM';
