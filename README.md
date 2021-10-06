@@ -1,5 +1,5 @@
 # GYM-WEBSITE
-This is a gym website made with the help of html,pug file, css, javascript, node.js,express,mongodb
+This is a gym website made with the help of html,pug file, css , bootstrap , javascript, node.js,express,mongodb
 
 <h3>SCREENSHOTS</h3>
 
