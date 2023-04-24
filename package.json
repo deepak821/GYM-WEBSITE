@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.19",
-    "pug": "^3.0.0"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
